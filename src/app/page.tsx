@@ -4,7 +4,7 @@ export default function Home() {
       <header>
         <div className="mx-auto max-w-[1280px]">
           <a
-            href="/"
+            href=""
             className="absolute mt-[22px] ml-[22px] block size-[120px] sm:mt-[52px] sm:ml-[52px] sm:size-[185px]"
           >
             <img src="logo-sametovaleta.svg" alt="Logo Sametová léta" />
