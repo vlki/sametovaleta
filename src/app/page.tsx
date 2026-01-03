@@ -1,5 +1,11 @@
 import Image from "next/image";
 
+import headerLogoSametovaLeta from "../../public/header-logo-sametovaleta.svg";
+import heroTitleDesktop from "../../public/hero-title-desktop.svg";
+import heroTitleMobile from "../../public/hero-title-mobile.svg";
+import heroSubtitleDesktop from "../../public/hero-subtitle-desktop.svg";
+import heroSubtitleMobile from "../../public/hero-subtitle-mobile.svg";
+import aboutLounger from "../../public/about-lounger.svg";
 import sectionsSeparatorBgMobile from "../../public/sections-separator-bg-mobile.svg";
 import sectionsSeparatorBgDesktop from "../../public/sections-separator-bg-desktop.svg";
 import practicalIconAlarm from "../../public/practical-icon-alarm.svg";
@@ -21,7 +27,7 @@ export default function Home() {
             href=""
             className="absolute mt-[22px] ml-[22px] block size-[120px] sm:mt-[52px] sm:ml-[52px] sm:size-[185px]"
           >
-            <img src="logo-sametovaleta.svg" alt="Logo Sametová léta" />
+            <Image src={headerLogoSametovaLeta} alt="Logo Sametová léta" />
             <h1 className="hidden">Sametová léta</h1>
           </a>
         </div>
@@ -29,17 +35,17 @@ export default function Home() {
       <main>
         <div className="pt-[130px] pb-[140px] sm:pt-[190px] sm:pb-[125px]">
           <div className="relative mx-auto max-w-[390px] sm:hidden">
-            <img src="hero-title-mobile.svg" alt="Sametová léta" />
-            <img
-              src="hero-subtitle-mobile.svg"
+            <Image src={heroTitleMobile} alt="Sametová léta" />
+            <Image
+              src={heroSubtitleMobile}
               alt="1984, 1988, 1992"
               className="absolute right-[4%] bottom-[6%] w-[66.9%]"
             />
           </div>
           <div className="relative mx-auto hidden max-w-[796px] sm:block">
-            <img src="hero-title-desktop.svg" alt="Sametová léta" />
-            <img
-              src="hero-subtitle-desktop.svg"
+            <Image src={heroTitleDesktop} alt="Sametová léta" />
+            <Image
+              src={heroSubtitleDesktop}
               alt="1984, 1988, 1992"
               className="absolute right-[3.5%] bottom-[15%] w-[41%]"
             />
@@ -98,8 +104,8 @@ export default function Home() {
             režimu.
           </p>
           <p className="mt-[16px] min-h-[130px] text-[24px]/[1.2]">
-            <img
-              src="about-lounger.svg"
+            <Image
+              src={aboutLounger}
               alt="Lehátko"
               className="float-right mt-[22px] mb-[22px] ml-[22px]"
             />
