@@ -9,6 +9,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-urbanist);
+  --font-bold: var(--font-rubik); 
 }
 
 body {
