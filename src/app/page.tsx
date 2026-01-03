@@ -10,12 +10,13 @@ import practicalIconCottage from "../../public/practical-icon-cottage.svg";
 import practicalIconMultipleStop from "../../public/practical-icon-multiple-stop.svg";
 import practicalIconPerson from "../../public/practical-icon-person.svg";
 import practicalIconSell from "../../public/practical-icon-sell.svg";
+import footerLogoRolling from "../../public/footer-logo-rolling.svg";
 
 export default function Home() {
   return (
     <div>
       <header>
-        <div className="mx-auto max-w-[1280px]">
+        <div className="mx-auto max-w-[1144px]">
           <a
             href=""
             className="absolute mt-[22px] ml-[22px] block size-[120px] sm:mt-[52px] sm:ml-[52px] sm:size-[185px]"
@@ -461,6 +462,40 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <footer className="bg-[#786149] text-[#F3E7D9]">
+        <div className="mx-auto flex max-w-[1144px] items-center gap-[40px] px-[22px] py-[90px] sm:px-[52px]">
+          <div className="sm:max-w-[350px]">
+            <p className="text-[24px]/[1.2]">
+              Hru pořádá{" "}
+              <a
+                href="https://rolling.cz/"
+                target="_blank"
+                className="underline"
+              >
+                Rolling
+              </a>
+              , spolek pro rozvoj zážitkových vzdělávacích her; Fučíkova 283,
+              411 55 Terezín, IČ 02296802, Bankovní spojení: 2300500209/2010;
+              Vedený ve spolkovém rejstříku u Krajského soudu v Hradci Králové
+              sp. zn. L 8720.
+            </p>
+            <p className="mt-[16px] text-[24px]/[1.2]">
+              Tým můžete kontaktovat na adrese{" "}
+              <a href="mailto:sametovaleta@rolling.cz" className="underline">
+                sametovaleta@rolling.cz
+              </a>
+              .
+            </p>
+          </div>
+          <a
+            href="https://rolling.cz/"
+            target="_blank"
+            className="hidden sm:block"
+          >
+            <Image src={footerLogoRolling} alt="Logo Rolling.cz" />
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
