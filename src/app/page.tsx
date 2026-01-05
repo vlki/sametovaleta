@@ -457,7 +457,7 @@ export default function Home() {
                   Lucie Zelinka
                 </h3>
                 <p className="mt-[8px] text-[24px]/[1.2]">
-                  V přelomovém období život ji potkává mnoho poprvé, včetně
+                  V přelomovém období života ji potkává mnoho poprvé, včetně
                   prvního podílu na tvorbě larpu. V týmu může využívat toho, že
                   s řadou dobových situací má významně bližší zkušenosti a může
                   tak zúročit skutečnost, že její dospívání probíhalo v době,
