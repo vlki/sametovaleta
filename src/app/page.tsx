@@ -454,14 +454,14 @@ export default function Home() {
               </li>
               <li>
                 <h3 className="font-rubik text-[24px]/[1.2] font-black text-[#934541] uppercase">
-                  Lucie Zelinka
+                  Lucie Zelinková
                 </h3>
                 <p className="mt-[8px] text-[24px]/[1.2]">
                   V přelomovém období života ji potkává mnoho poprvé, včetně
                   prvního podílu na tvorbě larpu. V týmu může využívat toho, že
                   s řadou dobových situací má významně bližší zkušenosti a může
                   tak zúročit skutečnost, že její dospívání probíhalo v době,
-                  kdy se hra odehrává..
+                  kdy se hra odehrává.
                 </p>
               </li>
             </ul>
