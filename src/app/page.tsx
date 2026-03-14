@@ -7,7 +7,7 @@ import heroSubtitleDesktop from "../../public/hero-subtitle-desktop.svg";
 import heroSubtitleMobile from "../../public/hero-subtitle-mobile.svg";
 import aboutLounger from "../../public/about-lounger.svg";
 import sectionsSeparatorBgMobile from "../../public/sections-separator-bg-mobile.svg";
-import sectionsSeparatorBgDesktop from "../../public/sections-separator-bg-desktop.svg";
+import sectionsSeparatorBgDesktop from "../../public/sections-separator-bg-desktop.svg";kras
 import practicalIconAlarm from "../../public/practical-icon-alarm.svg";
 import practicalIconAssignment from "../../public/practical-icon-assignment.svg";
 import practicalIconCalendar from "../../public/practical-icon-calendar.svg";
@@ -101,7 +101,8 @@ export default function Home() {
             úniku ani v rekreačním středisku u fotbálku. Povaha hry je velmi
             civilní, osobní příběhy slouží k vykreslení širších společenských
             trendů, které provázely změny společnosti v souvislosti s pádem
-            režimu.
+            režimu. Všechno podrobně vysvětlujeme v{" "}
+            <ExternalLink href="https://docs.google.com/document/d/1_Ctv_ILc5StNfHP18XHLtEV876pOiD5m9G5z8kVICWU/edit?usp=drive_link">hráčské příručce</ExternalLink>
           </p>
           <p className="mt-[16px] min-h-[130px] text-[24px]/[1.2]">
             <Image
@@ -111,7 +112,7 @@ export default function Home() {
             />
             Sametová léta jsou hrou vhodnou jak pro zkušené hráče, tak i pro ty,
             kteří by si rádi zahráli svůj první larp. Zkrátka jako každá dobrá
-            chatková dovolená.
+            chatková dovolená. 
           </p>
         </div>
 
@@ -482,8 +483,7 @@ export default function Home() {
               </a>
               , spolek pro rozvoj zážitkových vzdělávacích her; Fučíkova 283,
               411 55 Terezín, IČ 02296802, Bankovní spojení: 2300500209/2010;
-              Vedený ve spolkovém rejstříku u Krajského soudu v Hradci Králové
-              sp. zn. L 8720.
+              Spisová značka: L 10922 vedená u Krajského soudu v Ústí nad Labem.
             </p>
             <p className="mt-[16px] text-[24px]/[1.2]">
               Tým můžete kontaktovat na adrese{" "}
