@@ -58,13 +58,13 @@ export default function Home() {
           </div>
           <div className="mx-auto mt-[100px] max-w-[390px] px-[22px] sm:max-w-[486px] sm:px-0">
             <p className="text-[24px]/[1.2] font-medium">
-              chceš se dozvědět, až se otevře přihlašování?
+              Přihlašování probíhá od 15. do 29. března 2026
             </p>
             <a
-              href="https://rolling.cz/newsletter/"
+              href="https://forms.gle/CvgprmmCmKMG6vdT7"
               className="mt-[38px] block w-full rounded-2xl border-[3px] border-[#934541] bg-[#F9F3EC] py-[22px] text-center font-rubik text-[28px]/[1] font-black text-[#934541] shadow-[8px_8px_0px_0px_rgba(147,69,65,1.00)]"
             >
-              Odebírat newsletter
+              přihlašovací formulář
             </a>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Home() {
               <li className="flex items-start gap-[16px]">
                 <Image src={practicalIconAlarm} alt="Ikona budíku" />
                 <div className="text-[24px]/[1.2]">
-                  Přihlašování bude spuštěno 15. 3. 2026.
+                  Přihlašování probíhá od 15. do 29. března 2026. Všechny přihlášky podané v tomto období mají stejnou váhu. Pokud bude zájem o hru větší než počet míst, vybereme hráčstvo náhodně a zbytek zařadíme na náhradnicou listinu.
                 </div>
               </li>
               <li className="flex items-start gap-[16px]">
