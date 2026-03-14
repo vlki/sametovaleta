@@ -7,7 +7,7 @@ import heroSubtitleDesktop from "../../public/hero-subtitle-desktop.svg";
 import heroSubtitleMobile from "../../public/hero-subtitle-mobile.svg";
 import aboutLounger from "../../public/about-lounger.svg";
 import sectionsSeparatorBgMobile from "../../public/sections-separator-bg-mobile.svg";
-import sectionsSeparatorBgDesktop from "../../public/sections-separator-bg-desktop.svg";kras
+import sectionsSeparatorBgDesktop from "../../public/sections-separator-bg-desktop.svg";
 import practicalIconAlarm from "../../public/practical-icon-alarm.svg";
 import practicalIconAssignment from "../../public/practical-icon-assignment.svg";
 import practicalIconCalendar from "../../public/practical-icon-calendar.svg";
